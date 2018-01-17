@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raz.app.mybarbercalendar.MainActivity">
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvQueueStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="zimun tor"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="ברוכים הבאים"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/tvQueueStatus"
+        android:layout_width="249dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/btnAlarm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="not in queue!"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvTimeLeft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="alarm"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/tvTimeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="00:00"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="446dp" />
+</RelativeLayout>
